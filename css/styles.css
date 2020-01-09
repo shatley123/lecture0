@@ -1,6 +1,32 @@
+@charset "UTF-8";
 h1 {
-    color: #515151;
-    border-bottom: 1px solid black;
-    padding: 10px;
+  color: #515151;
+  border-bottom: 1px solid black;
+  padding: 10px;
 }
 
+button {
+  background-color: purple;
+}
+
+button {
+  color: white;
+  padding: 5px;
+  border: none;
+  width: 300px;
+}
+
+button:hover {
+  box-shadow: 3px 6px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+button:hover::before {
+  content: "🔥🔥🔥";
+}
+
+button:hover::after {
+  content: "🔥🔥🔥";
+}
+
+/*# sourceMappingURL=styles.css.map */
